@@ -1,15 +1,17 @@
 ---
 layout: page
-title: About
+title: About Banda
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+# What is this crap
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+Banda is a project by [Bill](https://github.com/wphogan) and [Alex](https://github.com/alexharris) that is focused on building easy to use and affordable technology for non-profit and educational institutions.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+Our first project is a Wordpress theme for creating documentation, technical or otherwise.
+
+## Why Wordpress?
+
+Wordpress has very low barriers to entry: it is free, well documented, easy to install on my hosts/servers, and has a huge and active community of developers. Tools built for Wordpress are easily accessible.
+
+![Banda Logo](/images/banda_logo.png)

@@ -11,7 +11,7 @@ title: Bill and Alex
 description: > # this means to ignore newlines until "baseurl:"
   Development blog for Banda wordpress theme
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "https://billandalex.github.io" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
