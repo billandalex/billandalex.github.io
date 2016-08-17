@@ -13,5 +13,3 @@ Our first project is a Wordpress theme for creating documentation, technical or 
 ## Why Wordpress?
 
 Wordpress has very low barriers to entry: it is free, well documented, easy to install on my hosts/servers, and has a huge and active community of developers. Tools built for Wordpress are easily accessible.
-
-![Banda Logo](/images/banda_logo.png)
