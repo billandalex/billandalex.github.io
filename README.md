@@ -14,3 +14,5 @@ Clone the repo and then in that directory run:
 $ jekyll serve
 ```
 Read the [Jekyll Docs](https://jekyllrb.com/docs/home/) for more info and how to use.
+
+To publish a post, just push your changes to the `master` branch.
