@@ -3,6 +3,7 @@ layout: post
 title:  "Banda Theme Overview"
 date:   2016-05-30 08:05:14 -0700
 categories: banda
+summary: A summary of the final goal of this project
 ---
 Banda Theme (which probably needs a new, more specific, name) aims to be a modern Wordpress theme that strives to serve as an easy to use option for powering internal documentation projects for small projects. Documentation has long been established as an important part of any project that hopes to remain maintainable over a long period of time. Whether it is a style guide, an API, or just organizational best practices, writing down standards in an easily accessible and quickly digestible manner is critical.
 
