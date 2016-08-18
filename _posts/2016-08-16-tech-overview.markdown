@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Technical Organization"
+title:  "Technical Overview"
 date:   2016-08-16 08:05:14 -0700
 categories: banda
 summary: A summary of the technical organization of this project
