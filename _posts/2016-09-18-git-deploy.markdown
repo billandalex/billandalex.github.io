@@ -5,7 +5,6 @@ date:   2016-09-18 11:05:14 -0700
 categories: banda
 summary: A summary of how git deploy is used on this project
 ---
-# Automated Git Deploy for WordPress Theme Development
 
 Git is often seen as a solution for version control, but it can also be be used to automatically and securely deploy code. For the Banda Theme, we're using this PHP deploy script: <https://github.com/markomarkovic/simple-php-git-deploy>
 
