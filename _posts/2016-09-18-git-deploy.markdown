@@ -26,6 +26,7 @@ Here's the abstract three-step flow of the git deploy:
    >"Hey, it's me, GitHub. I just received a push to the master branch on the Banda Theme repo and have some new files to send you. Here's the secret access token: [insert your top secret access token here]."
 
    The overzealous server responds: 
+   
    >"Cool! That access token is legit! Let me get those new files!!!"
 
 3. __The server-side deploy script is activated.__ 
