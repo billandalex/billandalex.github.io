@@ -6,7 +6,7 @@ categories: banda
 summary: A summary of how git deploy is used on this project
 ---
 
-Git is often seen as a solution for version control, but it can also be be used to automatically and securely deploy code. For the Banda Theme, we're using this PHP deploy script: <https://github.com/markomarkovic/simple-php-git-deploy>
+Git is often seen as a solution for version control, but it can also be used to automatically and securely deploy code. For the Banda Theme, we're using this PHP deploy script: <https://github.com/markomarkovic/simple-php-git-deploy>
 
 Here's the abstract three-step flow of the git deploy:
 
@@ -16,7 +16,7 @@ Here's the abstract three-step flow of the git deploy:
 
 1. __`git push`__ 
 
-   You `git push` to a branch you have setup to deploy to a server. In this case, we'll be pushing to a master branch that syncs with the live, production server, and a 'staging' branch that syncs with a development site.
+   You `git push` to a branch you have setup to deploy to a server. In this case, we'll be pushing to a master branch that syncs with the production site, and a 'staging' branch that syncs with a development site.
 2. __The push triggers a GitHub webhook.__
 
    Imagine the webhook and deploy scripts are people, and the webhook calls the deploy script on the phone:
