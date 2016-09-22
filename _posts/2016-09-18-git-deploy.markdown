@@ -35,4 +35,4 @@ Here's the abstract three-step flow of the git deploy:
 
 
  
-Once the webhook and deploy script are setup, all you need to do is `git push` like usual and your remote site(s) will automatically update. Using git for version control and deployment is handy, but it's also secure. Setting up your server to only accept change requests from GitHub would allow you to block all other SSH and SFPT requests.
+Once the webhook and deploy script are setup, all you need to do is `git push` like usual and your remote site(s) will automatically update. Using git for version control and deployment is handy, but it's also secure. Setting up your server to only accept change requests from GitHub would allow you to block all other SSH and SFPT access.
