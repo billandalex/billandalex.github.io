@@ -3,19 +3,72 @@ layout: default
 ---
 
 <div class="home">
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-        <p>{{ post.summary }}</p>
-      </li>
-    {% endfor %}
-  </ul>
+    <div class="row intro">
+      <div class="twelve columns">
+          <h1>Simple Documentation</h1>
+          <h2>Built on Wordpress</h2>
+          <hr />
+      </div>
+    </div>
+  <div class="row">
+    <div class="twelve columns">
+      <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+      <hr />
+    </div>
+  </div>
+    <div class="row">
+      <div class="six columns">
+        <h3>Blog</h3>
+        <ul class="post-list">
+          {% for post in site.posts %}
+          <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+            <h5>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h5>
+            <p>{{ post.summary }}</p>
+          </li>
+          {% endfor %}
+        </ul>
+
+        <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+      </div>
+      <div class="six columns">
+        <!-- Begin MailChimp Signup Form -->
+        <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+        <style type="text/css">
+          #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+          /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+             We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+        </style>
+        <div id="mc_embed_signup">
+          <form action="//github.us14.list-manage.com/subscribe/post?u=d68361a1389c0ea4612d1cf02&amp;id=e4ea5dc8f5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll">
+              <h4>Subscribe to our mailing list</h4>
+              <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+              <div class="mc-field-group">
+                <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+                </label>
+                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+              </div>
+              <div id="mce-responses" class="clear">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+              </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d68361a1389c0ea4612d1cf02_e4ea5dc8f5" tabindex="-1" value=""></div>
+              <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+            </div>
+          </form>
+        </div>
+
+        <!--End mc_embed_signup-->
+
+      </div>
+  </div>
+
+
 
 </div>
