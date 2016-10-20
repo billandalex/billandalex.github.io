@@ -6,20 +6,20 @@ layout: default
 
     <div class="row intro">
       <div class="twelve columns">
-          <h1>Simple Documentation</h1>
-          <h2>Built on Wordpress</h2>
+          <h2>Software to get organized.</h2>
           <hr />
       </div>
     </div>
   <div class="row">
     <div class="twelve columns">
-      <p>SlimDocs is a tool for building simple documentation sites for internal teams, clients, and whoever else might benefit from organized, easily accessible and digestible information.</p>
+      <p>Banda builds software to help organizations improve their internal documentation practices.</p>
+      <p>Our first project is SlimDocs, a Wordpress theme for creating simple, easy to use documentation sites.</p>
       <p><a class="button button-primary" href="https://banda.billscloud.space/">See an example</a></p>
       <hr />
     </div>
   </div>
     <div class="row">
-      <div class="six columns">
+      <div class="seven columns">
         <h4>Development Blog</h4>
         <ul class="post-list">
           {% for post in site.posts %}
@@ -36,9 +36,14 @@ layout: default
 
         <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
       </div>
-      <div class="six columns">
+      <div class="five columns">
+        <p><i class="fa fa-github fa-lg" aria-hidden="true"></i> <a href=https://github.com/billandalex">Find us on Github</a></p>
+        <p><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto:bandawordpress@gmail.com">Email us @ bandawordpress at gmail</a></p>
+        <h4>Subscribe to our mailing list</h4>
+        <p>
+          Keep up with our progress with an occassional update (there won't be many) (Well hopefully there will be many progresses, but there won't be many updates).
+        </p>
         <!-- Begin MailChimp Signup Form -->
-        <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
         <style type="text/css">
           #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
           /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
@@ -47,12 +52,9 @@ layout: default
         <div id="mc_embed_signup">
           <form action="//github.us14.list-manage.com/subscribe/post?u=d68361a1389c0ea4612d1cf02&amp;id=e4ea5dc8f5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
             <div id="mc_embed_signup_scroll">
-              <h4>Subscribe to our mailing list</h4>
-              <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
               <div class="mc-field-group">
-                <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
-                </label>
-                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                <label for="mce-EMAIL">Email Address</label>
+                <input type="email" value="" name="EMAIL" class="required email u-full-width" id="mce-EMAIL">
               </div>
               <div id="mce-responses" class="clear">
                 <div class="response" id="mce-error-response" style="display:none"></div>
