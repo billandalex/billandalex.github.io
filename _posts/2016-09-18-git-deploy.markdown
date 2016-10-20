@@ -6,7 +6,7 @@ categories: banda
 summary: A summary of how git deploy is used on this project
 ---
 
-Git is often seen as a solution for version control, but it can also be used to automatically and securely deploy code. For the Banda Theme, we're using this PHP deploy script: <https://github.com/markomarkovic/simple-php-git-deploy>
+Git is often seen as a solution for version control, but it can also be used to automatically and securely deploy code. For the SlimDocs Theme, we're using this PHP deploy script: <https://github.com/markomarkovic/simple-php-git-deploy>
 
 Here's the abstract three-step flow of the git deploy:
 
@@ -23,7 +23,7 @@ Here's the abstract three-step flow of the git deploy:
 
    The webhook says: 
    
-   >"Hey, it's me, GitHub. I just received a push to the master branch on the Banda Theme repo and have some new files to send you. Here's the secret access token: [insert your top secret access token here]."
+   >"Hey, it's me, GitHub. I just received a push to the master branch on the SlimDocs Theme repo and have some new files to send you. Here's the secret access token: [insert your top secret access token here]."
 
    The overzealous server responds: 
    

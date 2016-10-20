@@ -3,10 +3,10 @@ layout: post
 title:  "SMACSS, Fabricator, Globbing and beyond"
 date:   2016-10-05 13:35:14 -0700
 categories: banda
-summary: The methodologies, frameworks, and decisions behind Banda Styles 
+summary: The methodologies, frameworks, and decisions behind SlimDocs Styles 
 --- 
 
-In an effort to keep Banda Styles maintainable, scalable, and organized, we've decided to adopt the Scalable and Modular Architecture for CSS methodology, aka '[SMACSS](https://smacss.com/)'. SMACSS is a popular methodology developed by Jonathan Snook, a former front-end developer at Yahoo! Mail. Alternative CSS writing methodologies include [SUITCSS](http://suitcss.github.io/), [BEM](http://getbem.com/), [OOCSS](http://oocss.org/), and [Atomic](https://github.com/nemophrost/atomic-css),  all of which seem like solid choices for writing and organizing CSS files, but for this project, we'll be using SMACSS. 
+In an effort to keep SlimDocs Styles maintainable, scalable, and organized, we've decided to adopt the Scalable and Modular Architecture for CSS methodology, aka '[SMACSS](https://smacss.com/)'. SMACSS is a popular methodology developed by Jonathan Snook, a former front-end developer at Yahoo! Mail. Alternative CSS writing methodologies include [SUITCSS](http://suitcss.github.io/), [BEM](http://getbem.com/), [OOCSS](http://oocss.org/), and [Atomic](https://github.com/nemophrost/atomic-css),  all of which seem like solid choices for writing and organizing CSS files, but for this project, we'll be using SMACSS. 
 
 
 ### SMACSS Overview
@@ -36,9 +36,9 @@ SMACSS recommends keeping media queries bundled with the classes and id's they a
 For more on SMACSS, check out [smacss.com](https://smacss.com/).
 
 
-## The Current Banda Styles Setup
+## The Current SlimDocs Styles Setup
 
-For this project, we've made a stylesheet into a submodule that plugs into both a WordPress theme (Banda Theme -- full-fledged WordPress theme) and a pattern library (Banda UI -- a UI toolkit built with [Fabricator](https://fbrctr.github.io/)). 
+For this project, we've made a stylesheet into a submodule that plugs into both a WordPress theme (SlimDocs Theme -- full-fledged WordPress theme) and a pattern library (SlimDocs UI -- a UI toolkit built with [Fabricator](https://fbrctr.github.io/)). 
 
 The theme's styles are added directly to the submodule stylesheet, which, in turn, is used to style the pattern library. We can then add the necessary HTML to display the CSS in the pattern library. This allows us to keep pattern library and theme styles synced throughout the project. 
 
@@ -67,7 +67,7 @@ The next five imports use the `**/*` globbing pattern to include all the files w
 
 ## Globbing & Gulp
 
-Both Banda Theme and Fabricator, the pattern library framework we're using for this project, use Gulp to compile SASS. Out of the box, Fabricator's Gulp setup doesn't include globbing. In order for the globbing to work for both the theme's and pattern library's Gulp setup, we needed to add the Gulp plugin [Gulp Sass Glob](https://www.npmjs.com/package/gulp-sass-glob).  
+Both SlimDocs Theme and Fabricator, the pattern library framework we're using for this project, use Gulp to compile SASS. Out of the box, Fabricator's Gulp setup doesn't include globbing. In order for the globbing to work for both the theme's and pattern library's Gulp setup, we needed to add the Gulp plugin [Gulp Sass Glob](https://www.npmjs.com/package/gulp-sass-glob).  
 
 Here's a simplified Gulp task using the globbing plugin:
 
